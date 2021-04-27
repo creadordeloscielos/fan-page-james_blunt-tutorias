@@ -1,0 +1,432 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper{
+    max-width: 1300px;
+    width: 80%;
+    margin: auto;
+}
+
+header .menu svg {
+    display: none;
+}
+
+header {
+    background: url(../media/backgroundjames.jpg) no-repeat;
+    BACKGROUND-SIZE:cover;
+    font-family: 'Krona One', sans-serif;
+}
+
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+header .main_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .main_menu img{
+    width: 200px;
+    margin-right: 30px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li a{
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.boton a, #discografia a, #about a{
+    background: yellow;
+    padding: 10px 30px ;
+    color: #000;
+    line-height: 50px;
+}
+
+header .titular{
+    margin-top: 20vh;
+    color: rgb(0, 0, 0);
+}
+
+header .titular h1{
+    font-size: 40px;
+    font-weight: bold;
+    width: 60%;
+}
+
+header .titular span{
+    color: yellow;
+}
+
+header .botones{
+    padding: 20px 0px 20vh 0px;
+}
+
+header .btn_blanco{
+    background: #fff;
+}
+
+
+#discografia {
+    background: #000;
+    font-family: 'Krona One', sans-serif;
+}
+
+#discografia{
+    color: #fff;
+    padding: 40px 0px;
+}
+
+#discografia h4 ,#tour h4{
+    color: rgba(255, 255, 0, 0.733);
+    border: solid 1px rgba(112, 110, 110, 0.534);
+    width: 120px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#discografia span{
+    color: yellow;
+    text-decoration: underline;
+}
+
+#discografia h2{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+#discografia p{
+    font-size:14px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+#discografia .texto{
+    width: 45%;
+    margin-right: 35px;
+}
+
+#discografia .foto {
+    width: 45%;
+}
+
+#discografia .foto img{
+    width: 100%;
+}
+
+#discografia .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+
+#about {
+    padding: 30px 0px;
+    margin-bottom: 60px;
+    font-family: 'Krona One', sans-serif;
+}
+
+#about .texto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-izquierda ,.txt-derecha{
+    font-family: 'Jost', sans-serif;
+    width: 45%;
+}
+
+#about h4{
+   font-size: 40px;
+   margin: 25px auto 40px auto;
+}
+
+#about h2{
+  margin-bottom: 15px;
+  font-family: 'Krona One', sans-serif;
+ }
+
+ #about .botones {
+     margin-top: 20px;
+ }
+
+
+#about .negro{
+   background: rgb(148, 148, 148);
+}
+
+#tour{
+    background: yellow;
+    padding: 25px 0px;
+    font-family: 'Krona One', sans-serif;
+  
+}
+
+#tour .contenedor {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#tour .imagen{
+    width: 35%;
+    position: relative;
+    margin-top: -70px;
+}
+
+#tour .imagen img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#tour .texto {
+    width: 40%;
+}
+
+
+#tour .texto h4{
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+#tour .texto h2{
+    margin-bottom: 10px;
+}
+
+#tour .texto p{
+    line-height: 25px;
+}
+
+.fechas {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(121, 120, 120, 0.692);
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    width: 70%;
+}
+
+.fechas .numero{
+    font-size: 40px;
+}
+
+.fechas h5{
+    font-size: 20px;
+}
+
+.fechas a{
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 60px 0px;
+    line-height: 30px;
+    font-family: 'Jost', sans-serif;
+}
+
+footer svg{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0px 10px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:1200px){
+
+    header .titular {
+     padding: 10vh 0px;
+    }
+
+    header .botones {
+        padding: 20px 0px 10vh 0px;
+    }
+
+    header .titular h1 {
+        font-size: 30px;
+    }
+   
+}
+
+@media screen and (max-width:1180px){
+
+    header .boton {
+        display: none;
+    }
+
+    header .main_menu {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width:1000px){
+
+    .wrapper {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:880px){
+
+    header .boton {
+        display: none;
+    }
+
+    header .main_menu {
+        width: 100%;
+    }
+
+    header .menu {
+        display: block;     
+    }
+
+    header .main_menu, nav ul{
+        display: block;
+    }
+
+    nav ul {
+        background: yellow;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        margin-top: 15px;
+    }
+
+    nav ul li {
+        padding: 10px 5%;
+    }
+
+    nav ul li a{
+        color: #000;
+        display: block;
+    }
+
+    header .menu svg {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    header .menu-logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+
+@media screen and (max-width:860px){
+
+    #discografia h2{
+        font-size: 30px;
+    }
+
+    #about {
+        padding: 0px;
+        margin-bottom: -5px;
+    }
+
+    #about h4{
+        padding: 0px;
+        margin: 25px 0px 15px 0px;
+    }
+
+    #about div{
+        padding-bottom: 20px;
+    }
+
+    #about .botones {
+         margin-top: 15px;
+    }
+
+}
+
+
+@media screen and (max-width:800px){
+
+    #discografia .contenedor ,#about .texto ,#tour .contenedor{
+        flex-direction: column;
+      }
+
+      #discografia .foto ,#discografia .texto ,#about .texto ,#tour .texto{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #tour .imagen {
+        width: 90%;
+        margin: auto;
+        margin-top: -60px;
+    }
+
+    .fechas {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .fechas div{
+        padding: 5px 0px;
+    }
+
+    .lugar {
+        margin-bottom: 25px;
+    }
+
+    .txt-izquierda, .txt-derecha {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:700px){
+
+    header .titular {
+     margin-top: 0vh;
+    }
+
+    header .botones {
+        padding: 20px 0px 30px 0px;
+    }
+
+}
+
+
